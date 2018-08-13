@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  swagger_example:
+    image: ${DOCKER_REGISTRY}swaggerexample
+    build:
+      context: .
+      dockerfile: Swagger_Example/Dockerfile
